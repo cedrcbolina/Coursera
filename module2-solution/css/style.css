@@ -1,16 +1,20 @@
+/* default design */
 * {
     box-sizing: border-box;
     margin:0;
     padding:0;
 }
+/*general font*/
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/*header design*/
 .pageHeading {
     text-align: center;
     margin: 20px;
 }
 
+/*give section bgcolors*/
 .section1 {
     background-color: peachpuff;
 }
@@ -21,6 +25,7 @@ body {
     background-color: lightsalmon;
 }
 
+/*general changes for section titles*/
 #chicken, #beef, #sushi {
     border: 2px black solid;
     text-align: center;
@@ -32,7 +37,7 @@ body {
     right: 0;
     top: 0;
 }
-
+/*give section title colors*/
 #chicken {
     background-color:crimson;
 }
@@ -43,19 +48,22 @@ body {
     background-color:palevioletred;
 }
 
-
+/*section adjustments*/
 .row {
     border: solid 1px black;
     position: relative;
     padding: 20px;
-    
     margin: 10px;
 }
-
+/*content spacing and alignment*/
 .content {
     padding: 30px;
     text-align: justify;
 }
+
+
+/* different views 
+/* added color changing header to identify what view the device is currently in 
 
 /*** Desktop View */
 @media (min-width: 992px) {
@@ -100,5 +108,4 @@ body {
         margin: auto;
         
     }
-
 }
