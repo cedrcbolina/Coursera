@@ -1,0 +1,101 @@
+/* default design */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*general font*/
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*header design*/
+.pageHeading {
+    text-align: center;
+    margin: 20px;
+}
+
+/*give sections bgcolor*/
+.section1 {
+    background-color: peachpuff;
+}
+.section2 {
+    background-color: brown;
+}
+.section3 {
+    background-color: lightsalmon;
+}
+
+/*general style for section titles*/
+#chicken, #beef, #sushi {
+    border: 2px black solid;
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    right: 0;
+    top: 0;
+}
+/*give section titles a color*/
+#chicken {
+    background-color:crimson;
+}
+#beef {
+    background-color:teal;
+}
+#sushi {
+    background-color:palevioletred;
+}
+
+/*section adjustments*/
+.row {
+    border: solid 1px black;
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+}
+/*content spacing and alignment*/
+.content {
+    padding: 30px;
+    text-align: justify;
+}
+
+
+/* different views 
+
+/*** Desktop View */
+@media (min-width: 992px) {
+    
+    .desktop-view {
+        float: left;
+        width: 33.33%;
+        margin: auto;
+    }
+}
+
+/*** Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .tablet-view, .tablet-view-12 {
+        margin: auto;
+        float:left;
+    }
+    .tablet-view {
+        width: 50%;
+    }
+
+    .tablet-view-12 {
+        width: 100%;
+    }
+}
+
+/*** Mobile View */
+@media (max-width: 767px) {
+    
+    .mobile-view {
+        width: 100%;
+        margin: auto;
+        
+    }
+}
