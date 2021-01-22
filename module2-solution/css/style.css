@@ -14,7 +14,7 @@ body {
     margin: 20px;
 }
 
-/*give section bgcolors*/
+/*give sections bgcolor*/
 .section1 {
     background-color: peachpuff;
 }
@@ -25,7 +25,7 @@ body {
     background-color: lightsalmon;
 }
 
-/*general changes for section titles*/
+/*general style for section titles*/
 #chicken, #beef, #sushi {
     border: 2px black solid;
     text-align: center;
@@ -37,7 +37,7 @@ body {
     right: 0;
     top: 0;
 }
-/*give section title colors*/
+/*give section titles a color*/
 #chicken {
     background-color:crimson;
 }
@@ -63,14 +63,10 @@ body {
 
 
 /* different views 
-/* added color changing header to identify what view the device is currently in 
 
 /*** Desktop View */
 @media (min-width: 992px) {
-    .pageHeading {
-        background-color: red;   
-    }
-
+    
     .desktop-view {
         float: left;
         width: 33.33%;
@@ -80,10 +76,7 @@ body {
 
 /*** Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
-    .pageHeading {
-        background-color: green;
-    }
-
+    
     .tablet-view, .tablet-view-12 {
         margin: auto;
         float:left;
@@ -99,10 +92,7 @@ body {
 
 /*** Mobile View */
 @media (max-width: 767px) {
-    .pageHeading {
-        background-color: blue;
-    }
-
+    
     .mobile-view {
         width: 100%;
         margin: auto;
