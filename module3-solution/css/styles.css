@@ -5,8 +5,6 @@
 }
 
 /* HEADER */
-
-
 .navbar-brand h1 {
     font-size: 2em;
     text-transform: uppercase;
@@ -55,8 +53,8 @@ header .container{
     margin-top: -30px;
     
 }
-
 /* END HEADER */
+
 
 /* MAIN CONTENT */
 .container {
@@ -66,13 +64,13 @@ header .container{
     margin: auto;
     
 }
+
 #mainContent #menu {
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 30px;
 }
 
 #mainContent .title {
-    
     font-weight: bold;
     border: 1px solid black;
     padding: 15px 0;
@@ -122,9 +120,12 @@ header .container{
     clear: both;
     margin: -30px 30px 0 0 ;
 }
+
 /* END MAIN CONTENT */
 
-/********** desktop devices **********/
+
+
+/** DESKTOP DEVICES **/
 @media (min-width: 992px) {
     .col-md-4 {
         position: relative;
@@ -133,14 +134,10 @@ header .container{
         width: 33.33%;
         
     }
-
-
-
 }
 
-/********** tablet devices **********/
+/** TABLET DEVICES **/
 @media (min-width: 768px) and (max-width: 991px) {
-
     .col-sm-6 {
         position: relative;
         float: left;
@@ -155,28 +152,21 @@ header .container{
         width: 100%;
         
     }
-
-
 }
 
-/********** mobile devices **********/
+/** MOBILE DEVICES **/
 @media (max-width: 767px) {
-    
-
     .col-xs-12 {
         position: relative;
         float: left;
         width: 100%;
         margin: auto;
     }
-
     .content {
         margin: 20px;;
     }
-
     .navbar-brand h1 { /* Restaurant name */
         margin-left: -10px;
         font-size: 5vw; /* 1vw = 1% of viewport width */
     }
-
 }
